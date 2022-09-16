@@ -1,9 +1,16 @@
-float celcius_to_fahrenheit(float C)
-{
-    return (C*9/5)+32;
-}
+#include "day2headers.h"
 
-float fahrenheit_to_celcius(float F)
+char* check_palindrome(int number)
 {
-    return (F-32)*5/9;
+    int remainder, temp=number, new_number=0;
+
+    while(number!=0)
+    {
+        remainder = number%10;
+        number = number/10;
+        new_number = new_number*10+remainder;
+    }
+
+    if(new_number == temp) return "palindrome";
+    else return "not a palindrome";
 }

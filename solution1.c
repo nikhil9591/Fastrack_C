@@ -1,15 +1,14 @@
+#include "day2headers.h"
 
-#include "upper_to_lower.h"
-char uppercase_to_lowercase(char ch)
+int sum_of_digits(int number)
 {
+    int remainder, sum=0;
+    while(number!=0)
+    {
+        remainder = number%10;
+        number = number/10;
+        sum = sum + remainder;
+    }
 
-   if(ch < 'A' || ch > 'Z')
-   {
-        return '*';
-   }
-   else{
-
-        return ch+32;
-   }
-
+    return sum;
 }

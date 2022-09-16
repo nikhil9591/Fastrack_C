@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1663045693 source:c:\users\admin\desktop\fastrack_c\assignment_problems\day2\day2solutions\solution1.c
+	"day2headers.h"
+
+1663126911 source:c:\users\admin\desktop\fastrack_c\assignment_problems\day2\day2solutions\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"day2headers.h"
+	<string.h>
+
+1663126959 c:\users\admin\desktop\fastrack_c\assignment_problems\day2\day2solutions\day2headers.h
+
+1663045720 source:c:\users\admin\desktop\fastrack_c\assignment_problems\day2\day2solutions\solution2.c
+	"day2headers.h"
+
+1663046290 source:c:\users\admin\desktop\fastrack_c\assignment_problems\day2\day2solutions\solution3.c
+	"day2headers.h"
+
+1663126956 source:c:\users\admin\desktop\fastrack_c\assignment_problems\day2\day2solutions\solution4.c
+	"day2headers.h"
+

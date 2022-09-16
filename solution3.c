@@ -1,10 +1,14 @@
-float simple_interest(double P,double T, double R)
-{
-    return P*T*R/100;
+#include "day2headers.h"
 
-}
-
-float compund_interest(double P,double T, double R, int N)
+int number_of_digits(int number)
 {
-    return P*(1+R/N)*N*T;
+    int count=0;
+
+    while(number!=0)
+    {
+        number = number/10;
+
+        count++;
+    }
+    return count;
 }

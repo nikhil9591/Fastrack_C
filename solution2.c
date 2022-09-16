@@ -1,9 +1,14 @@
-#include "area_of_circle.h"
-#define PI 3.14
-float area_of_circle(float r)
+#include "day2headers.h"
+int reverse_of_digits(int number)
 {
-    return PI*r*r;
+    int remainder, reverse=0;
+    while(number!=0)
+    {
+        remainder = number%10;
 
+        number = number/10;
+
+        reverse = reverse*10+remainder;
+    }
+    return reverse;
 }
-
-
