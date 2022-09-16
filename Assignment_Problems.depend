@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1662979638 source:c:\users\admin\desktop\fastrack_c\assignment_problems\main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"upper_to_lower.h"
+	"area_of_circle.h"
+	"calc_of_interest.h"
+	"temperature.h"
+	"even_odd.h"
+	<string.h>
+
+1662886335 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution.c
+	"upper_to_lower.h"
+
+1662907830 c:\users\admin\desktop\fastrack_c\assignment_problems\upper_to_lower.h
+
+1662908472 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution2.c
+	"area_of_circle.h"
+
+1662908820 c:\users\admin\desktop\fastrack_c\assignment_problems\area_of_circle.h
+
+1662907915 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution1.c
+	"upper_to_lower.h"
+
+1662910546 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution3.c
+
+1662910458 c:\users\admin\desktop\fastrack_c\assignment_problems\calc_of_interest.h
+
+1662978704 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution4.c
+
+1662979919 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution5.c
+
+1662977839 c:\users\admin\desktop\fastrack_c\assignment_problems\temperature.h
+
+1662980465 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution6.c
+	<stdbool.h>
+
+1662979246 c:\users\admin\desktop\fastrack_c\assignment_problems\even_odd.h
+
+1662981385 source:c:\users\admin\desktop\fastrack_c\assignment_problems\solution7.c
+
